@@ -1,9 +1,20 @@
-
+import React from 'react';
 import './App.css';
+import Header from './Header';
+import ContactList from './ContactList';
+import AddContact from './AddContact';
+import ContactCard from './ContactCard';
 
 function App() {
   return (
-    <div>Hello Pakistan</div>
+    <>
+    <div className="ui container">
+      <Header/>
+      <AddContact/>
+      <ContactList/>
+
+    </div>
+    </>
 
     
   );
